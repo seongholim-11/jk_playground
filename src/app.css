@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --daisyui-theme: light;
+  }
+  
+  /* 테마 변경 시 CSS 변경 */
+  
+  .dark-theme {
+    --daisyui-theme: dark;
+  }
